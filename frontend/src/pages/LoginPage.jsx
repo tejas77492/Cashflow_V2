@@ -69,7 +69,7 @@ export default function LoginPage() {
         </form>
 
         <p style={{ marginTop: 20, fontSize: 12, color: "var(--text-light)", textAlign: "center" }}>
-          Default: admin@cashflow.com / Admin@2026
+          Default: admin email / admin password
         </p>
       </div>
     </div>
