@@ -6,6 +6,13 @@
     <title>Cashflow</title>
   </head>
   <body>
+    <script>
+      // Apply saved theme before React loads to prevent flash
+      (function() {
+        var t = localStorage.getItem('cf_theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
